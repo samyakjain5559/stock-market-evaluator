@@ -1,4 +1,4 @@
-package com.example.dao;
+package com.project.dao;
 
 import lombok.Data;
 

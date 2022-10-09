@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.project.controller;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -21,12 +21,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.dao.data;
-import com.example.service.data_service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.project.dao.data;
+import com.project.service.data_service;
 
 @RestController
 @RequestMapping(path="/JSON", produces="application/json")

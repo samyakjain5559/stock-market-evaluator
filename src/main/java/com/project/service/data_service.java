@@ -1,4 +1,4 @@
-package com.example.service;
+package com.project.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -16,7 +16,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
 
-import com.example.dao.data;
+import com.project.dao.data;
 
 public class data_service {
 	
